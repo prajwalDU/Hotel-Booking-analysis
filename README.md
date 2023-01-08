@@ -17,7 +17,7 @@ It includes basic inspection on the raw data, In data Cleaning we handle some mi
 **EDA - (Exploratory data analysis)**
 Here we answering some of the questions which we wrote
 
-Q!. Which year the hotels (both city and resort) have the highest footfall?
+Q1. Which year the hotels (both city and resort) have the highest footfall?
 
 Q2. Which are the top 10 countries from travelers and tourists visit the hotels?
 
