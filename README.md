@@ -9,12 +9,12 @@ We tried to understand the customer’s’ behaviour and useful patterns in the 
 
 
 
-Data cleaning and Preparation :
+**Data Cleaning and Data preparation**
 It includes basic inspection on the raw data, In data Cleaning we handle some missing values and dropping some cloumns which is not necessary for our analysis.
 
 
 
-EDA - Exploratory data analysis
+**EDA - (Exploratory data analysis)**
 Here we answering some of the questions which we wrote
 
 Q!. Which year the hotels (both city and resort) have the highest footfall?
@@ -41,11 +41,11 @@ Q11. How long the customer stays in the hotel ?
 
 
 
-And We also draw a heat map to find which variables are correlated more
+And We also we draw a heat map to find which variables are correlated more.
 
 ![Screenshot (70)](https://user-images.githubusercontent.com/67784512/211192963-a785f2b1-f8dc-47b9-b9bc-ea9faabcc33a.png)
 
-Conclusion
+*Conclusion*
 
 * Top Hotel - City Hotel. Top meal - Bread and Breakfast. Top Agent - Agent No. 9. Top room type - A
 * One out of every three bookings are cancelled.
