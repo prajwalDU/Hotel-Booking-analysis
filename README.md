@@ -45,7 +45,7 @@ And We also we draw a heat map to find which variables are correlated more.
 
 ![Screenshot (70)](https://user-images.githubusercontent.com/67784512/211192963-a785f2b1-f8dc-47b9-b9bc-ea9faabcc33a.png)
 
-*Conclusion*
+**Conclusion**
 
 * Top Hotel - City Hotel. Top meal - Bread and Breakfast. Top Agent - Agent No. 9. Top room type - A
 * One out of every three bookings are cancelled.
