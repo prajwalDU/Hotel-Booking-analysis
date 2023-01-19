@@ -1,16 +1,14 @@
 # Hotel Booking Analysis
 ![hotel-jobs2-d6ebf43935](https://user-images.githubusercontent.com/67784512/211192193-3627b8ce-0082-486b-9a3b-0a61cd536c7c.jpg)
 
-Hotel bookings depend on many factors such as type of hotels, seasonality, days of week, meals available, parking spaces, charges etc. Hence analysing the patterns available in the past data is very important to help the hotels plan well accordingly in order to benefit the business.
-
-The given data set contains booking information for a city hotel and a resort hotel, and includes information such as when the booking was made, the number of adults, children, and/or babies, and the number of available parking spaces etc,
+Hotel bookings depend on many factors such as type of hotels, seasonality, days of week, meals available, parking spaces, charges etc. Hence analysing the patterns available in the past data is very important to help the hotels plan well accordingly in order to benefit the business. The given data set contains booking information for a city hotel and a resort hotel, and includes information such as when the booking was made, the number of adults, children, and/or babies, and the number of available parking spaces etc, we tried to understand the customer’s’ behaviour and useful patterns in the data to help hotel managements improve the business by taking better decisions. The sequence of processes carried out to analyse the data is mentioned below:
 
 We tried to understand the customer’s’ behaviour and useful patterns in the data to help hotel managements improve the business by taking better decisions. The sequence of processes carried out to analyse the data is mentioned below:
 
 
+**Data preparation**
 
-**Data Cleaning and Data preparation**
-It includes basic inspection on the raw data, In data Cleaning we handle some missing values and dropping some cloumns which is not necessary for our analysis.
+It includes basic inspection on the raw data, Data Cleaning by handling missing values. We also treated outliers first by capping method, we defined some thresholds to cap some of the categorical features, then we handled the outliers in remaining features by standard IQR method, after that we did some feature engineering in order to understand the patterns in latent features.
 
 
 
@@ -45,7 +43,7 @@ And We also we draw a heat map to find which variables are correlated more.
 
 ![Screenshot (70)](https://user-images.githubusercontent.com/67784512/211192963-a785f2b1-f8dc-47b9-b9bc-ea9faabcc33a.png)
 
-**Conclusion**
+**We encountered following patterns in the given historical data:**
 
 * Top Hotel - City Hotel. Top meal - Bread and Breakfast. Top Agent - Agent No. 9. Top room type - A
 * One out of every three bookings are cancelled.
@@ -62,6 +60,8 @@ And We also we draw a heat map to find which variables are correlated more.
 * Average nights spent by visitors: 3
 * Most visitors are from these countries: Portugal, Britain, France, Spain and Germany.
 * Total Special requests and the revenue depends more on total members arrived.
+
+**In this project, we also analysed the factors affecting the hotel bookings which may be useful to predict the future bookings, cancellations and number of special requests.**
 
 
 
